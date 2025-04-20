@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+/* Inicial */
+.telaRetro{
+    background-color: #fffbf0;
+    min-height: 98vh;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+    box-shadow: 0 0 0 8px #C0C0C0;
+}
+
+.studio{
+    font-family:'Press Start 2P', cursive;
+    font-size: 24px;
+    text-align: center;
+    background-color: #A4C8F0;
+    margin: 0;
+    padding: 6px 0;
+    border-bottom:  5px solid#000000;
+}
+
+/* Barra Navageção */
+
+#barraInf{
+    background-color:  white;
+    margin: 0;
+    padding: 24px 0;
+    border-bottom:  5px solid #000000;
+    text-align: match-parent;
+}
+#barraInf a{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+}
+#barraInf a:hover,
+
+#barraInf a:focus {
+  color: #A4C8F0;             
+  text-decoration: underline; 
+}
+
+#barraInf a:active{
+    color: rgb(108, 108, 202);
+}
+
+/* Secção Victor */
+
+.vicTitulo{
+    background-color: #A4C8F0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+    border-bottom:  3px solid #000000;
+    border-top:  3px solid #000000;
+}
+.botaoVictor{
+    font-family: 'JetBrains Mono', cursive;
+    font-size: 17px;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.textoVic{
+    background-color: white;
+    font-size: 17px;
+    padding: 24px 0;
+    border-bottom:  3px solid #000000;
+    letter-spacing: 5px;
+
+}
+
+/* Botões */
+
+.botaoHobbies {
+  position: absolute;
+  top: 30%;              
+  right: 30px;          
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botaoContato {
+  position: absolute;
+  bottom: 20px;       
+  right: 300px;          
+  flex-direction: column;
+  align-items: center;
+}
+
+aside img {
+  width: 50px;          
+  height: auto;
+  margin-bottom: 5px;    
+}
+
+aside h3 {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+}
