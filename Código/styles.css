@@ -124,7 +124,7 @@
 
 /* Botões */
 
-.botaoHobbies {
+.botaoLinkedin {
   position: absolute;
   top: 30%;              
   right: 30px;          
@@ -133,7 +133,7 @@
   align-items: center;
 }
 
-.botaoContato {
+.botaoGit {
   position: absolute;
   bottom: 20px;       
   right: 300px;          
